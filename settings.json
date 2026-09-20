@@ -1,6 +1,18 @@
 {
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "includeCoAuthoredBy": false,
   "statusLine": {
     "type": "command",
     "command": "bash ~/.claude/statusline.sh"
+  },
+  "modelOverrides": {
+    "claude-haiku-4-5": "arn:aws:bedrock:us-east-1:047399021344:application-inference-profile/k5x1jo7bwv3a",
+    "claude-sonnet-4-5": "arn:aws:bedrock:us-east-1:047399021344:application-inference-profile/nd21cjkuiphg",
+    "claude-sonnet-4-6": "arn:aws:bedrock:us-east-1:047399021344:application-inference-profile/efwflopj5gcg",
+    "claude-opus-4-5": "arn:aws:bedrock:us-east-1:047399021344:application-inference-profile/daxn9pk28emv",
+    "claude-opus-4-6": "arn:aws:bedrock:us-east-1:047399021344:application-inference-profile/6sseosymm3l4"
   }
 }
