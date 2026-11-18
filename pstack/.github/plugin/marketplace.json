@@ -1,0 +1,5 @@
+{
+  "name": "pstack-harness",
+  "owner": {"name": "Evan Pomponio"},
+  "plugins": [{"name": "pstack", "source": "./copilot", "description": "pstack from cursor/plugins, built for GitHub Copilot CLI"}]
+}

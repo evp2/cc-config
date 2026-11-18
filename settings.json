@@ -14,5 +14,22 @@
     "claude-sonnet-4-6": "arn:aws:bedrock:us-east-1:047399021344:application-inference-profile/efwflopj5gcg",
     "claude-opus-4-5": "arn:aws:bedrock:us-east-1:047399021344:application-inference-profile/daxn9pk28emv",
     "claude-opus-4-6": "arn:aws:bedrock:us-east-1:047399021344:application-inference-profile/6sseosymm3l4"
+  },
+  "enabledPlugins": {
+    "pstack@cursor-plugins": true
+  },
+  "extraKnownMarketplaces": {
+    "cursor-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "cursor/plugins"
+      }
+    },
+    "mattpocock": {
+      "source": {
+        "source": "github",
+        "repo": "mattpocock/skills"
+      }
+    }
   }
 }
